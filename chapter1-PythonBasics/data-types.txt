@@ -1,0 +1,11 @@
+The Integer, Floating-Point, and String Data types
+
+
+Data Type:          Examples:
+Integers            -2, -1, 0, 1, 2, 3, 4, 5
+
+Floating-Point Numbers  -1.25, -1.0, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25
+
+Strings             'a', 'aa', 'aaa', 'Hello!', 'Cheeky Cunt', 'cats'
+
+Strings should always be in single quotes
