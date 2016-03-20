@@ -1,0 +1,12 @@
+'Alice' + 'Bob' evaluates to 'AliceBob'
+
+'Alice' + 42 returns an error
+    (If you need this to return 'Alice42' need to convert data types with str())
+    
+Multiplication does work:
+'Alice' * 4 returns 'AliceAliceAliceAlice'
+  Note that multiplication only works when one of the values is integer. 'alice' * 'bob' will fail, so will 'alice' * 1.0.
+  
+  
+  
+  

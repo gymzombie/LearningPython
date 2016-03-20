@@ -1,0 +1,15 @@
+
+Store variables with an "assignment statement"
+
+
+bob = 40
+eggs = 10
+bob + eggs = 50
+eggs = eggs + 2
+eggs          # returns 12
+  
+
+Variable name rules:
+1. Only one word
+2. Ony letters, numbers, and underscores
+3. Can't begin with a number
