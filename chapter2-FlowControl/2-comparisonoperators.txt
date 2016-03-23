@@ -9,3 +9,11 @@ Operator        Meaning
 >               Greater than
 <=              Less than or equal to
 >=              Greater than or equal to
+
+
+Works for strings as well:
+
+'hello' == 'hello' returns True
+
+'dog' == 'cat' returns False
+'dog' != 'cat' returns True
