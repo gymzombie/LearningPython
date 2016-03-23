@@ -1,0 +1,33 @@
+
+Table 2-1. Comparison Operators
+
+Operator        Meaning
+
+==              Equal to
+!=              Not equal to
+<               Less than
+>               Greater than
+<=              Less than or equal to
+>=              Greater than or equal to
+
+
+Works for strings as well:
+
+'hello' == 'hello' returns True
+
+'dog' == 'cat' returns False
+'dog' != 'cat' returns True
+
+The only operators that work with strings are == and !=. <, >, <= and >= don't work with strings. 
+
+
+*** Important detail - an integer or floating point will never match a string. 
+
+42 == '42' returns False. 
+
+
+
+
+    The == operator (equal to) asks whether two values are the same as each other.
+
+    The = operator (assignment) puts the value on the right into the variable on the left.

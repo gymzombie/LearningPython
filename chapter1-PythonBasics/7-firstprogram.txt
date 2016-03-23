@@ -1,0 +1,18 @@
+
+# Program says hello and asks for my name.
+
+print('Hello world!')
+print('What is your name?') #ask for their name
+myName = input()
+print('It is good to meet you, ' + myName)
+print('Your name is ' + str(len(myName)) + ' characters long.')
+
+print('When were you born?') 
+myAge = input()
+myAge = 2016 - int(myAge)
+print('You are ' + str(myAge) + 'years old')
+print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+        
+        
+  
+  
