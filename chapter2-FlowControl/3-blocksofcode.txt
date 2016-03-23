@@ -1,0 +1,18 @@
+There are three rules for blocks:
+
+    Blocks begin when the indentation increases.
+
+    Blocks can contain other blocks.
+
+    Blocks end when the indentation decreases to zero or to a containing block’s indentation.
+
+
+name = 'Mary'
+password = 'swordfish'
+if name == 'Mary':
+    print('Hello Mary')
+    if password == 'swordfish':
+        print('Access granted.')
+    else:
+        print('Wrong password.')
+        
