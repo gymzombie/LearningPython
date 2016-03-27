@@ -25,3 +25,22 @@ print('You will be ' + str(27) + ' in a year.')
 print('You will be ' + '27' + ' in a year.')
 print('You will be 27' + ' in a year.')
  print('You will be 27 in a year.') 
+
+
+#*******************************8
+# Enhanced this with Iamanenabler's help to remove hardcoded date:
+
+import datetime
+
+print('Hello World!')
+now = datetime.datetime.now() # get current year
+
+print('What is your name?')
+myName = input()
+print('it is good to meet you, ' + myName)
+print('The length of your name is:')
+print(len(myName))
+print('What year were you born?')
+birthyear = input()
+print('You are ' + str(now.year - int(birthyear)) + ' years old, and will be ' + str(now.year + 1 - int(birthyear)) + ' next year')
+
