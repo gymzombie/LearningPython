@@ -14,5 +14,14 @@ print('You are ' + str(myAge) + 'years old')
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
         
         
-  
-  
+  ### PROTIP: The Udemy video does a GREAT job of evaluting how this breaks down:
+        # https://www.udemy.com/automate/learn/v4/t/lecture/3465796
+# it's like:
+
+print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+print('You will be ' + str(int(26) + 1) + ' in a year.')
+print('You will be ' + str(26 + 1) + ' in a year.')
+print('You will be ' + str(27) + ' in a year.')
+print('You will be ' + '27' + ' in a year.')
+print('You will be 27' + ' in a year.')
+ print('You will be 27 in a year.') 
