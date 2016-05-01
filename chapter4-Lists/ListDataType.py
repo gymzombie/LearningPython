@@ -53,6 +53,29 @@ list('Hello')
 list(range(0, 100, 2))
 """ Returns: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98]"""
 
+# variable swap trick:
+To take variable assignments and hand off to each other...
+a , b = b, a
+
+Example:
+>>> a = 'AAA'
+>>> b = 'BBB'
+>>> a
+'AAA'
+>>> b
+'BBB'
+>>> a, b = b, a
+>>> a
+'BBB'
+>>> b
+'AAA'
+
+Augmented assignment variables
+spam = 42
+spam = spam +1    # moves up to 43
+spam += 1         # moves up to 44
+
+
 
 
               
